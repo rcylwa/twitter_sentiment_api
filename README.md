@@ -69,5 +69,10 @@ This shows that my deployment of a simple contenerized REST API model is working
 Scaling and management of the running container can be now managed using Kubernetes cluster.
 
 
+# Conclusions and TODOs
+
+Given more time I would certainly use libraries more suitable for real-life production grade applications like Tensorflow.
+Fast.ai is an easy-to-use tool giving great results but lacks ease of deployment and model export/import (I had problems loading models within a container). It is also important to note that instead of using local python server I should use something more production-grade like gunicorn.
+
 
    
