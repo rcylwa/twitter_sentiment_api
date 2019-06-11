@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify # loading in Flask
+from flask import Flask, request, jsonify
 from fastai.text import *
 import pandas as pd
 
@@ -20,12 +20,9 @@ def predict():
     data = request.get_json()
     # Make prediction
     text = str(data['text'])
-    # making predictions
     pred = learn.predict(text)
-    #print(pred)
-    # returning the predictions as json
+    # Return the predictions as json
     return jsonify(str(pred[0]))
-    #return jsonify(str([torch.__version__, fastai.__version__]))
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
