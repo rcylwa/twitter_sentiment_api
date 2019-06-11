@@ -1,0 +1,3 @@
+flask
+fastai==1.0.52
+pandas

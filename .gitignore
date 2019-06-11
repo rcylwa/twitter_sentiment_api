@@ -1,0 +1,6 @@
+data/data_clean/models/*
+data/data_clean/data_clas.pkl
+data/data_clean/twitter-sentiment-classifier
+data/data_raw/database.sqlite
+app/data/models/*
+app/data/data_clas.pkl
