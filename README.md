@@ -17,7 +17,7 @@ kaggle datasets download -d crowdflower/twitter-airline-sentiment
 Conda environement used for developement of thos project cen be recreated using:
 ```shell
 conda env create -f environment.yml
-conda activate myenv
+conda activate fastai
 ```
 
 # Model building
